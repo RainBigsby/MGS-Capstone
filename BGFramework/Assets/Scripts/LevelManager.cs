@@ -7,11 +7,12 @@ using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour
 {
     // where the player starts in the game i.e checkpoint
-    private Vector3 respawnPoint;
+    [SerializeField]  private Vector3 respawnPoint;
     public GameObject fallDetector;
 
     // change scene name in inspector
     [SerializeField] public string sceneName;
+
 
     void Start()
     {
