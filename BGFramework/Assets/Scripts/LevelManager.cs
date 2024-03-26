@@ -7,11 +7,12 @@ using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour
 {
     // where the player starts in the game i.e checkpoint
-    private Vector3 respawnPoint;
+    [SerializeField]  private Vector3 respawnPoint;
     public GameObject fallDetector;
 
     // change scene name in inspector
     [SerializeField] public string sceneName;
+
 
     void Start()
     {
@@ -20,7 +21,7 @@ public class LevelManager : MonoBehaviour
     }
 
 
-    
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // when player enters goal
@@ -33,11 +34,14 @@ public class LevelManager : MonoBehaviour
         }
 
         // if player falls off platforms
-        if (collision.name == "FallDetector") 
+        if (collision.name == "FallDetector")
         {
             transform.position = respawnPoint;
         }
     }
 
-    // if player falls off the platforms
+    public void MoveToScene(int sceneID)
+    { 
+        SceneManager.LoadScene(sceneID);
+    }
 }
