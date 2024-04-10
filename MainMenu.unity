@@ -480,7 +480,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -110}
+  m_AnchoredPosition: {x: 0, y: -59}
   m_SizeDelta: {x: 35.15, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1085270383
@@ -589,7 +589,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b829e0a264c3d1a4e9cbbe2827a3c56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respawnPoint: {x: 0, y: 0, z: 0}
   fallDetector: {fileID: 0}
   sceneName: 
 --- !u!1 &1234436353
