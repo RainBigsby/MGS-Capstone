@@ -21,6 +21,12 @@ public class Character : MonoBehaviour
     public bool canMoveHorizontal = false;
     public bool canJump = false;
 
+    [Header("Projectile Objects")]
+    // projectile vars
+    public ProjectileBehavior ProjectilePrefab;
+    public Transform LaunchOffset;
+    
+
     public void moveCharacterRight()
     {
         if (canMoveHorizontal)
@@ -99,6 +105,16 @@ public class Character : MonoBehaviour
         if(canJump && isGrounded)
         {
             jumpCounter = 0;
+        }
+    }
+
+    // projectile updates
+    private void Update()
+    {
+        // spawning projectile
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Instantiate(ProjectilePrefab, LaunchOffset.position, transform.rotation);
         }
     }
 }

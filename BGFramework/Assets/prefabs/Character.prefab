@@ -220,6 +220,8 @@ MonoBehaviour:
   canMoveVertical: 0
   canMoveHorizontal: 0
   canJump: 0
+  ProjectilePrefab: {fileID: 2901816949218809841, guid: 7b8b80a6d2d18a449997503c33220b53, type: 3}
+  LaunchOffset: {fileID: 0}
 --- !u!114 &8591931832948521987
 MonoBehaviour:
   m_ObjectHideFlags: 0
