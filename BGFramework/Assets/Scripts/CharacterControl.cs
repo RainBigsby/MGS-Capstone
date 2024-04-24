@@ -50,8 +50,8 @@ public class CharacterControl : MonoBehaviour
         {
             character.characterJump();
         }
-        
-        if(Input.GetAxisRaw("Jump") == 0)
+
+        if (Input.GetAxisRaw("Jump") == 0)
         {
             character.resetJump();
         }

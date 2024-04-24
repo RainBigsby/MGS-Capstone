@@ -83,6 +83,8 @@ public class Character : MonoBehaviour
             isJumping = true;
             jumpCounter++;
             rigidBody.velocity = Vector2.up * jumpForce;
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.PlaySFX("Jump"); // Play jump sound effect
         }
     }
 
