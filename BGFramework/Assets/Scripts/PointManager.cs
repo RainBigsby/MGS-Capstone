@@ -9,6 +9,8 @@ public class PointManager : MonoBehaviour
         if(collision.CompareTag("Player"))
         {
             ScoreSystem.scoreValue += 1;
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.PlaySFX("star"); // Play the collect sound effect
             Destroy(gameObject);
         }
     }
