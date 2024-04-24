@@ -6,7 +6,7 @@ public class Character : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D rigidBody;
     [SerializeField] private Transform GFX;
-    [SerializeField] private float moveSpeed = 10f;
+    [SerializeField] public float moveSpeed = 10f;
     [SerializeField] private float jumpForce = 10f;
     
     [SerializeField] private bool isMoving = false;

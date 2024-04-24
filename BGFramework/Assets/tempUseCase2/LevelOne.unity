@@ -255,6 +255,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 611063114002886164, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
+      propertyPath: moveSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 611063114002886164, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
       propertyPath: totalJumps
       value: 0
       objectReference: {fileID: 0}
@@ -330,6 +334,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1687661872039270881, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687661872039270881, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
+      propertyPath: currentMoveDirection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1814052353674964896, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -404,6 +416,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 611063114002886164, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
+      propertyPath: moveSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 611063114002886164, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
       propertyPath: totalJumps
       value: 0
       objectReference: {fileID: 0}
@@ -471,6 +487,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1687661872039270881, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1941457112}
+    - target: {fileID: 1687661872039270881, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687661872039270881, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
+      propertyPath: currentState
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1814052353674964896, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -532,6 +560,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
+--- !u!1 &1941457112 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6492990976378627620, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
+  m_PrefabInstance: {fileID: 2064707193}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2064707193
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -570,11 +603,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 972890367318845400, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -2.56
       objectReference: {fileID: 0}
     - target: {fileID: 972890367318845400, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -3.77
       objectReference: {fileID: 0}
     - target: {fileID: 972890367318845400, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -615,14 +648,6 @@ PrefabInstance:
     - target: {fileID: 1814052353674964896, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
       propertyPath: m_LocalScale.y
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1814052353674964896, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.94
-      objectReference: {fileID: 0}
-    - target: {fileID: 1814052353674964896, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.42
       objectReference: {fileID: 0}
     - target: {fileID: 3609123511395557619, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
       propertyPath: m_GravityScale
