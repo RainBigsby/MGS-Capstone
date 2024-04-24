@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/miniVidExample/miniVidScene.unity
+    guid: fb92ea4c56784e8438de6e60ce75136e
+  - enabled: 1
+    path: Assets/miniVidExample/miniVidScene2.unity
+    guid: 33eb6ad077964954f8956fbea9555c03
   m_configObjects: {}
