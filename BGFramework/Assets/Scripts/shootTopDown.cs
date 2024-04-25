@@ -12,7 +12,8 @@ public class shootTopDown : MonoBehaviour
     void Update()
     {
         // check if spacebar is pressed
-        if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        //if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        if(Input.GetButtonDown("Fire1"))
         {
             // spawn bullet
             Instantiate(bulletPrefab, shootingPoint.position, transform.rotation);

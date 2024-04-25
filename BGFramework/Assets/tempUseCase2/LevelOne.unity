@@ -394,6 +394,10 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 0.29
       objectReference: {fileID: 0}
+    - target: {fileID: 4786522206075523559, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 6492990976378627620, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
       propertyPath: m_Name
       value: RedEnemy
@@ -546,6 +550,10 @@ PrefabInstance:
     - target: {fileID: 3850830068706721407, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4786522206075523559, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6492990976378627620, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
       propertyPath: m_Name
@@ -748,6 +756,10 @@ PrefabInstance:
     - target: {fileID: 3850830068706721407, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3850830068706721407, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
+      propertyPath: m_Material
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3850830068706721407, guid: 669cd73edd676164d97795b56dfcd12b, type: 3}
       propertyPath: m_Offset.x
