@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/UseCase1/PlatformLv2.unity
     guid: 94834e676cff6cd40b0502e6015b4140
+  - enabled: 1
+    path: Assets/tempUseCase2/Instructions.unity
+    guid: 20db8fb9a1487a24c96922f3d9c73df8
   m_configObjects: {}
