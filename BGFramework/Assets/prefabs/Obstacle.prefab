@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3981588661053432303}
   - component: {fileID: 3981588661053432302}
   - component: {fileID: 3981588661053432297}
+  - component: {fileID: 90889823684067039}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Untagged
@@ -145,3 +146,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   respawnScene: 1
   kDrop: {fileID: 0}
+--- !u!114 &90889823684067039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3981588661053432296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 725a4022e32258c40b3f4262b536817c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCapsule: 0
+  isTriangle: 1
+  isSquare: 0
+  isCircle: 0
+  capsule: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
+  triangle: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
+  square: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  circle: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
