@@ -179,6 +179,18 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1070390343188435972, guid: a35ad340636a70a43a58a2799477eeb0, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 6eed218a87656a748bcadc73d3035243, type: 2}
+    - target: {fileID: 1070390343188435972, guid: a35ad340636a70a43a58a2799477eeb0, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 3840128347703172432, guid: 6eed218a87656a748bcadc73d3035243, type: 2}
+    - target: {fileID: 1070390343188435972, guid: a35ad340636a70a43a58a2799477eeb0, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1070390343188435994, guid: a35ad340636a70a43a58a2799477eeb0, type: 3}
       propertyPath: m_Layer
       value: 5
@@ -308,8 +320,20 @@ PrefabInstance:
       value: 123.765625
       objectReference: {fileID: 0}
     - target: {fileID: 1070390343200987017, guid: a35ad340636a70a43a58a2799477eeb0, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 6eed218a87656a748bcadc73d3035243, type: 2}
+    - target: {fileID: 1070390343200987017, guid: a35ad340636a70a43a58a2799477eeb0, type: 3}
       propertyPath: m_fontSizeBase
       value: 64.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1070390343200987017, guid: a35ad340636a70a43a58a2799477eeb0, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 3840128347703172432, guid: 6eed218a87656a748bcadc73d3035243, type: 2}
+    - target: {fileID: 1070390343200987017, guid: a35ad340636a70a43a58a2799477eeb0, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1070390343200987023, guid: a35ad340636a70a43a58a2799477eeb0, type: 3}
       propertyPath: m_Layer
@@ -321,7 +345,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1070390344763143873, guid: a35ad340636a70a43a58a2799477eeb0, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 55
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 1070390344763143874, guid: a35ad340636a70a43a58a2799477eeb0, type: 3}
+      propertyPath: m_text
+      value: HPV infection is very common, with an estimated 14 million new cases
+        in the US annually.
       objectReference: {fileID: 0}
     - target: {fileID: 1070390344763143874, guid: a35ad340636a70a43a58a2799477eeb0, type: 3}
       propertyPath: m_fontSize
@@ -340,9 +369,17 @@ PrefabInstance:
       value: 266.0163
       objectReference: {fileID: 0}
     - target: {fileID: 1070390344763143874, guid: a35ad340636a70a43a58a2799477eeb0, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 6eed218a87656a748bcadc73d3035243, type: 2}
+    - target: {fileID: 1070390344763143874, guid: a35ad340636a70a43a58a2799477eeb0, type: 3}
       propertyPath: m_fontSizeBase
       value: 46.4
       objectReference: {fileID: 0}
+    - target: {fileID: 1070390344763143874, guid: a35ad340636a70a43a58a2799477eeb0, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 3840128347703172432, guid: 6eed218a87656a748bcadc73d3035243, type: 2}
     - target: {fileID: 1070390344763143874, guid: a35ad340636a70a43a58a2799477eeb0, type: 3}
       propertyPath: m_VerticalAlignment
       value: 512
@@ -350,6 +387,10 @@ PrefabInstance:
     - target: {fileID: 1070390344763143874, guid: a35ad340636a70a43a58a2799477eeb0, type: 3}
       propertyPath: m_HorizontalAlignment
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1070390344763143874, guid: a35ad340636a70a43a58a2799477eeb0, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1070390345019528284, guid: a35ad340636a70a43a58a2799477eeb0, type: 3}
       propertyPath: m_Layer
@@ -2268,8 +2309,6 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -9.1, y: 1.9047}
   m_SizeDelta: {x: 113.5636, y: 36.1986}
-  m_AnchoredPosition: {x: 12.9, y: 2.1}
-  m_SizeDelta: {x: 116.8063, y: 28.239}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1797608090
 MonoBehaviour:
