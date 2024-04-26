@@ -22,7 +22,7 @@ public class ScoreSystem : MonoBehaviour
     {
         if(showScore)
         {
-            score.text = "Score: " + scoreValue;
+            score.text = "SCORE: " + scoreValue;
         }
     }
 }

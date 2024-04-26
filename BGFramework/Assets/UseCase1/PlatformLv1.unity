@@ -2091,6 +2091,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db13316bd3152ef4ba8e87c712b4ee7e, type: 3}
+--- !u!114 &126965399528398258 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 126965399559685400, guid: db13316bd3152ef4ba8e87c712b4ee7e, type: 3}
+  m_PrefabInstance: {fileID: 126965399528398257}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dfe53b5e8440884a8303fd7d8ece8ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &415861231217782378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2549,7 +2560,7 @@ PrefabInstance:
     - target: {fileID: 5968056922502878001, guid: d9c2c667e67fa9a4f8bb817bea225fc7, type: 3}
       propertyPath: kDrop
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 126965399528398258}
     - target: {fileID: 5968056922502878001, guid: d9c2c667e67fa9a4f8bb817bea225fc7, type: 3}
       propertyPath: ScoreGoal
       value: 2

@@ -19,7 +19,7 @@ public class KnowledgeDrop : MonoBehaviour
     {
         ScoreSystem.scoreValue = 0;
         Time.timeScale = 1;
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene(respawnScene);
     }
 
     void OnTriggerEnter2D(Collider2D collision)
