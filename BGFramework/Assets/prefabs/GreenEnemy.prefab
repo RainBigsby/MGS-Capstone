@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8165632994880381806}
   m_Layer: 0
   m_Name: GFX
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114,7 +114,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.00000008195639, y: 0.0013986714}
@@ -143,9 +143,10 @@ GameObject:
   - component: {fileID: 394450174018811839}
   - component: {fileID: 4734724485922326167}
   - component: {fileID: 7259023830638655874}
+  - component: {fileID: 7908947498639332646}
   m_Layer: 0
   m_Name: GreenEnemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -164,7 +165,7 @@ Transform:
   m_Children:
   - {fileID: 2767451368531623179}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &9035831019207439200
 Rigidbody2D:
@@ -249,3 +250,15 @@ MonoBehaviour:
   player: {fileID: 0}
   currentState: 1
   currentMoveDirection: 0
+--- !u!114 &7908947498639332646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6891433045956248170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904c12d72587e7e4cb0af6a77a91b0bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
