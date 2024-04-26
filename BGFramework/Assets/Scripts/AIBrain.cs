@@ -12,6 +12,11 @@ public class AIBrain : MonoBehaviour
     [SerializeField] private int currentMoveDirection;
     private float distanceFromPlayer;
 
+    void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+    }
+
     private void Update()
     {
         owner.checkGrounded();
