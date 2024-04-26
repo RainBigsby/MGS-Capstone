@@ -21,4 +21,11 @@ public class PlatformCollision : MonoBehaviour
             //collision.collider.transform.SetParent(null);
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        // destroy bullet
+       if(collision.gameObject.tag == "Enemy")
+        Destroy(collision.gameObject);
+    }
 }
